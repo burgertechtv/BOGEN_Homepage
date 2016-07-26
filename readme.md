@@ -12,8 +12,8 @@ Navbar (Menu)
   |  |		z.B. data-target="#links" -->  <ul id="links"> ***Links *** </ul>  
   | </button>  
   | <button> (navbar-toggle) data-target="#search"
-  |  |	- Hier liegt der Menubutton, der offnet die Suche Menü
-  |  |	- Man verbintet das "data-target" Attribut von <button> mit dem richtigen Abschnitt 
+  |  |	+ Hier liegt der Menubutton, der offnet die Suche Menü
+  |  |	+ Man verbintet das "data-target" Attribut von <button> mit dem richtigen Abschnitt 
   |  |		z.B. data-target="#search" -->  <div id="links"> ***Links *** </div>
   |</button>
   |***BOGEN Logo Area***

@@ -6,22 +6,25 @@ Navbar (Menu)
 			
 <nav> (navbar, navbar-default)
   |<div> (navbar header)
-  |	<button> (navbar-toggle) data-target="#links"
-  |  - Hier liegt der Menubutton, der offnet die URL Menü  
-  |  - Man verbintet das "data-target" Attribut von <button> mit dem richtigen Abschnitt 
-  |		z.B. data-target="#links" -->  <ul id="links"> ***Links *** </ul>  
+  |<button> (navbar-toggle) data-target="#links"
+  |  |	- Hier liegt der Menubutton, der offnet die URL Menü  
+  |  |	- Man verbintet das "data-target" Attribut von <button> mit dem richtigen Abschnitt 
+  |  |		z.B. data-target="#links" -->  <ul id="links"> ***Links *** </ul>  
+  | </button>  
   | <button> (navbar-toggle) data-target="#search"
-  |  - Hier liegt der Menubutton, der offnet die Suche Menü
-  |  - Man verbintet das "data-target" Attribut von <button> mit dem richtigen Abschnitt 
-  |	    z.B. data-target="#search" -->  <div id="links"> ***Links *** </div>
-  |	<a> (navbar-brand) ***BOGEN Logo Area***  
-  |	 |	<img id="logo_img" src="img/logo.jpg"> </img>
+  |  |	- Hier liegt der Menubutton, der offnet die Suche Menü
+  |  |	- Man verbintet das "data-target" Attribut von <button> mit dem richtigen Abschnitt 
+  |  |		z.B. data-target="#search" -->  <div id="links"> ***Links *** </div>
+  |</button>
+  |***BOGEN Logo Area***
+  | <a> (navbar-brand)   
+  |  |	<img id="logo_img" src="img/logo.jpg"> </img>
   |  |	- Die Große vom Logo wird in CSS Stylesheet mit "#logo_img" gesetzt.
   | </a>
-  | 		*** Dropdown Menu Section | URL Links ***
+  |*** Dropdown Menu Section | URL Links ***
   | <ul> (collapse, navbar-collapse, nav, navbar-nav) id="links"
-  |	 |<li> (dropdown) data-toggle="dropdown"
-  |	 |	| <a> (dopdown-toggle) data-toggle="dropdown" role="button"
+  |  |<li> (dropdown) data-toggle="dropdown"
+  |  |	| <a> (dopdown-toggle) data-toggle="dropdown" role="button"
   |  |  |  |   ***Top Level Dropdown***
   |  |  |  | Magnetic Measurement Solution
   |  |	| </a>
@@ -33,8 +36,8 @@ Navbar (Menu)
   |  |	| </ul> 
   |  | </li>
   |  </ul>
-  |  		*** Dropdown Menu Section | Search Function ***
-  |	<div> (collapse, navbar-collapse) id="search"
+  |*** Dropdown Menu Section | Search Function ***
+  |<div> (collapse, navbar-collapse) id="search"
   |  | <form> (navbar-form navbar-right)
   |  | 	 |  <div> (form-group)
   |  |	 |    | <input> (form-control) ***Search Field***	

@@ -1,0 +1,169 @@
+html {
+}
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #E0E0E0  ;
+}
+
+#wrapwrap{
+	margin: 22px auto 24px;
+	max-width: 1100px;
+}
+
+h1 {
+	font-size: 14px;
+	font-weight: bold; 
+	color: #323d8f; 
+}
+
+p {
+	color:  #868686;
+}
+
+.row {
+	  overflow: hidden; 
+}
+
+
+
+	.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+		color: #f1b000;  /*Sets the text hover color on navbar*/
+	}
+
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+	 a:hover, .navbar-default .navbar-nav > .active > a:focus {
+		color: white; /*BACKGROUND color for active*/
+		background-color: #030033;
+	}
+
+  .navbar-default {
+    background-color: white;
+    border-color: white;
+}
+
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+    color: #f1b000;
+	text-decoration: none;
+   }
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver; /*Change rollover cell color here*/
+  }
+
+
+  .navbar-default .navbar-nav > li > a {
+   color: #323d8f; /*Change active text color here*/
+    }
+
+
+
+.navbar {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navbar-brand {
+	margin-right: 25px;	
+}
+
+.navbar-nav {
+	padding: 0px -25px;
+	margin: 0px -30px;
+}
+
+.navbar-brand img {
+	max-height: 50px; 
+	max-width: 100px; 
+	
+}
+
+.slider-nav {
+	position: absolute;
+	z-index: 2;
+	right: 10px;
+	top: 20px;
+}
+
+.sliderNavBox {
+	margin: 20px;
+	position: relative; 
+	height: 50px; 
+	width: 350px;
+	background-color: #e6eaec ;
+}
+
+.sliderNavBox h1 {
+	position: absolute; 
+	margin: 10px 0 0 25px;
+	
+}
+
+footer p {
+	color:  #ffffff;
+	line-height: 1em; 
+}
+
+footer a {
+	color:  #ffffff;
+}
+
+footer a:hover {
+	color:  #ffffff; 
+	text-decoration: underline;
+}
+
+#footer {
+	background-color: #abbabf ;
+}
+
+#footer_sitemap a {
+	margin:0px 10px;
+}
+
+.strong {
+		font-weight: bold;
+}
+
+.tile_row {
+	margin-top: 15px;	
+}
+
+.tile_content {
+	padding: 15px 25px 99999px 25px;
+	padding-top: 15px;	
+	background-color: white;
+	margin-bottom: -99999px;
+
+}
+
+.container {
+	margin:15px 0px ; 
+	width: 100%;
+}
+
+.tile_image {
+	width:100%;
+	vertical-align: left;
+	max-width: 315px;
+	max-height: 270px;
+}
+
+#tile_video {
+	 
+	height: 250px;
+	max-width: 315px;
+}
+
+.icon {
+	height: 30px;
+	width: 30px;
+}
+
+
+
+
+
